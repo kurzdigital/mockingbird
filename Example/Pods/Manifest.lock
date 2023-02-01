@@ -1,0 +1,16 @@
+PODS:
+  - Mockingbird-Networking (0.6.2)
+
+DEPENDENCIES:
+  - Mockingbird-Networking (from `../`)
+
+EXTERNAL SOURCES:
+  Mockingbird-Networking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mockingbird-Networking: df25e47f45b54c44a31ac05a944c4a603636fb71
+
+PODFILE CHECKSUM: ad016d00db21fbce5d73f4f016e3e575ed098540
+
+COCOAPODS: 1.11.3

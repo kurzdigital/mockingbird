@@ -1,0 +1,13 @@
+use_frameworks!
+source 'https://git.kurzdigital.com/kta/kta-podspecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Mockingbird_Example' do
+  pod 'Mockingbird-Networking', :path => '../'
+
+  target 'Mockingbird_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

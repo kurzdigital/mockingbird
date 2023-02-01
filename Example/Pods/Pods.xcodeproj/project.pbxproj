@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA500DF3865FF2E4F543CFFE4C0ED13 /* Pods-Mockingbird_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 404B200D4617EBAE712BF71BD1CF99CA /* Pods-Mockingbird_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ECFA37C480323353650E76AFE43C5FE /* RouteAndAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB2BB89F8B967398E1D9E8116D022FF /* RouteAndAction.swift */; };
+		1EF6B323428D59FEC87654025B72CEE4 /* Pods-Mockingbird_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5E4B0195AD06D644A7F13DA8A32B0B /* Pods-Mockingbird_Example-dummy.m */; };
+		3982ED228016A8C6324A75CC1CC936EF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		77263F76B6A84D58CAE389B853CD4C87 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815A3722598081D9AB17A52759BDF33B /* Router.swift */; };
+		86BA2FDA5AD32AB6A8C5BECA03E02198 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		870F6EA0C33D6AE9916E1519A3739166 /* HTTPResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5A1A84D082DF38641E3878BAA79625 /* HTTPResponseStatus.swift */; };
+		89E7208DF2B9163643C946A4FC96607B /* Pods-Mockingbird_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8F834D4605E2E2F6D75DEBB68F1BC5 /* Pods-Mockingbird_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		949F7DF5C8C4DA122E84E14A9EF9C607 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		960E24304EF6CC43D2B0CCEB7410ADE3 /* Data+Inputstream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6016BACAE1A6D09284AE2633790D2EF9 /* Data+Inputstream.swift */; };
+		A8EF53EDC7CF85E2B2D8CC1A58D1A219 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B9F39BC2530CC00AEAE168C9E9F8B2 /* Content.swift */; };
+		BF9ECAC0530E01F7F1663433B4F5FA6F /* Mockingbird-Networking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 681F2D225AC5916774FC9F9C333DD22D /* Mockingbird-Networking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C55A9AA21A02A600176143C67EDB34DF /* Mockingbird-Networking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94073BE7281C692AF3E8F83C47D97EC2 /* Mockingbird-Networking-dummy.m */; };
+		DA2C4B0D4128B4C89A5B4FC8F9B2E89D /* MockingbirdURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF854ADFF373EB374732AD91B87DD0C6 /* MockingbirdURLProtocol.swift */; };
+		E78801737356E73A16E9026D2036D400 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9944E59E977709971B833ED3155BA5B3 /* Route.swift */; };
+		E9C8B90721D118DA14460BEE23415944 /* Pods-Mockingbird_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E573DE7C439D9FAE8E72DD33FE25CF70 /* Pods-Mockingbird_Tests-dummy.m */; };
+		FFE122CD156F11E5FDDBBB0BC77D5519 /* NSRegularExpression+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6230DA878D17FB5B2B657EAAD4FBBA4D /* NSRegularExpression+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0510DB723141DC96CDC2BEDBCE5DF7F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 690D7697AB7FC1C5CD6D1ED2C06A3546;
+			remoteInfo = "Pods-Mockingbird_Example";
+		};
+		B81742542A0BBD2F8A52BDAB65439A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51946C2AE546140788A1DECE20F1B7EC;
+			remoteInfo = "Mockingbird-Networking";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		142F379C4A6EDA646FD778C39005C275 /* Mockingbird-Networking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mockingbird-Networking-prefix.pch"; sourceTree = "<group>"; };
+		182E56FA1BAEA0FB8DE1DFDFA355392C /* Pods-Mockingbird_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mockingbird_Example-frameworks.sh"; sourceTree = "<group>"; };
+		19ECBCAB16570FF3A72DC49804ED54F7 /* Pods-Mockingbird_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mockingbird_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1C5A1A84D082DF38641E3878BAA79625 /* HTTPResponseStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPResponseStatus.swift; path = Mockingbird/Classes/HTTPResponseStatus.swift; sourceTree = "<group>"; };
+		20B53BEA5C0B1AC95D040358113242BD /* Pods-Mockingbird_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mockingbird_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		35F22E4492AA76697224C635C3A3033C /* Pods-Mockingbird_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mockingbird_Example.modulemap"; sourceTree = "<group>"; };
+		3ABE4619553788BAD556519C7C287DE9 /* Pods-Mockingbird_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mockingbird_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		404B200D4617EBAE712BF71BD1CF99CA /* Pods-Mockingbird_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mockingbird_Tests-umbrella.h"; sourceTree = "<group>"; };
+		404D28E668097A2F7037E53A2C9EB66D /* Pods_Mockingbird_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mockingbird_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B9F39BC2530CC00AEAE168C9E9F8B2 /* Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Content.swift; path = Mockingbird/Classes/Content.swift; sourceTree = "<group>"; };
+		491CED6FA3688EDA1F10266CD13484D9 /* Pods-Mockingbird_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mockingbird_Tests.modulemap"; sourceTree = "<group>"; };
+		4D1C3BEF9EBDD7847B97A1A6B9376B1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5534FD971D1240BB3246ACE96EFC90CC /* Pods-Mockingbird_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mockingbird_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5676B5EE65F9F74391992AEFA584D52D /* Mockingbird_Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mockingbird_Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5E4B0195AD06D644A7F13DA8A32B0B /* Pods-Mockingbird_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mockingbird_Example-dummy.m"; sourceTree = "<group>"; };
+		6016BACAE1A6D09284AE2633790D2EF9 /* Data+Inputstream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Data+Inputstream.swift"; sourceTree = "<group>"; };
+		6230DA878D17FB5B2B657EAAD4FBBA4D /* NSRegularExpression+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+Extension.swift"; sourceTree = "<group>"; };
+		649F70E3B3175DCA4EEC3C5FDF3E0619 /* Pods-Mockingbird_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mockingbird_Example.release.xcconfig"; sourceTree = "<group>"; };
+		674C8BDD2C511B13F26223F43D9E6B2E /* Mockingbird-Networking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mockingbird-Networking.debug.xcconfig"; sourceTree = "<group>"; };
+		681F2D225AC5916774FC9F9C333DD22D /* Mockingbird-Networking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mockingbird-Networking-umbrella.h"; sourceTree = "<group>"; };
+		6AB2BB89F8B967398E1D9E8116D022FF /* RouteAndAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RouteAndAction.swift; sourceTree = "<group>"; };
+		75365841BAE3795847B7BBF5801BB760 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7C392C50EA53FB198076AF194B424BA7 /* Mockingbird-Networking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Mockingbird-Networking.modulemap"; sourceTree = "<group>"; };
+		815A3722598081D9AB17A52759BDF33B /* Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		94073BE7281C692AF3E8F83C47D97EC2 /* Mockingbird-Networking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mockingbird-Networking-dummy.m"; sourceTree = "<group>"; };
+		94CB788318481150EE4F858859BA585A /* Mockingbird-Networking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "Mockingbird-Networking.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9944E59E977709971B833ED3155BA5B3 /* Route.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB373344129E2B9BBFDDB4B717DD15D2 /* Pods_Mockingbird_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mockingbird_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD47538B4652EA9D9468B0307744E0AA /* Pods-Mockingbird_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mockingbird_Tests-Info.plist"; sourceTree = "<group>"; };
+		BDB67C08E6EFF01CB770A070FDBF018E /* Pods-Mockingbird_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mockingbird_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF854ADFF373EB374732AD91B87DD0C6 /* MockingbirdURLProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockingbirdURLProtocol.swift; path = Mockingbird/Classes/MockingbirdURLProtocol.swift; sourceTree = "<group>"; };
+		C104293AE71683C3695DFA3D8DC9293B /* Pods-Mockingbird_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mockingbird_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C6EB7A2E2C8A5F103373712CF551528B /* Mockingbird-Networking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mockingbird-Networking-Info.plist"; sourceTree = "<group>"; };
+		D5F32472578DA66B647DDAD0D73F99C1 /* Pods-Mockingbird_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mockingbird_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC8F834D4605E2E2F6D75DEBB68F1BC5 /* Pods-Mockingbird_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mockingbird_Example-umbrella.h"; sourceTree = "<group>"; };
+		E573DE7C439D9FAE8E72DD33FE25CF70 /* Pods-Mockingbird_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mockingbird_Tests-dummy.m"; sourceTree = "<group>"; };
+		F30968C875E8C4C8D640723319ACA902 /* Mockingbird-Networking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mockingbird-Networking.release.xcconfig"; sourceTree = "<group>"; };
+		F49FF9B393510242796E5260131E5EF0 /* Pods-Mockingbird_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mockingbird_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		248D3F266DA992F42EE116A1C597D4AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86BA2FDA5AD32AB6A8C5BECA03E02198 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FBDC23D7A510DFC2B8EDD497D69309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949F7DF5C8C4DA122E84E14A9EF9C607 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD77DC258E43BA125E4F5AA7AD628735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3982ED228016A8C6324A75CC1CC936EF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17CD621E9296DA08AC7025AA01A532AB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				75365841BAE3795847B7BBF5801BB760 /* LICENSE */,
+				94CB788318481150EE4F858859BA585A /* Mockingbird-Networking.podspec */,
+				4D1C3BEF9EBDD7847B97A1A6B9376B1A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1BD36F97EC7E7E77EE4BBEA8593358EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6016BACAE1A6D09284AE2633790D2EF9 /* Data+Inputstream.swift */,
+				6230DA878D17FB5B2B657EAAD4FBBA4D /* NSRegularExpression+Extension.swift */,
+			);
+			name = Extensions;
+			path = Mockingbird/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		45CD88D08CB30C9A4804CB2F1DE645CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48FC309052F4E638B00DF12E3F0FA017 /* Pods-Mockingbird_Example */,
+				D27C3E213839F33788E2B8E01A4076C9 /* Pods-Mockingbird_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		48FC309052F4E638B00DF12E3F0FA017 /* Pods-Mockingbird_Example */ = {
+			isa = PBXGroup;
+			children = (
+				35F22E4492AA76697224C635C3A3033C /* Pods-Mockingbird_Example.modulemap */,
+				D5F32472578DA66B647DDAD0D73F99C1 /* Pods-Mockingbird_Example-acknowledgements.markdown */,
+				20B53BEA5C0B1AC95D040358113242BD /* Pods-Mockingbird_Example-acknowledgements.plist */,
+				5A5E4B0195AD06D644A7F13DA8A32B0B /* Pods-Mockingbird_Example-dummy.m */,
+				182E56FA1BAEA0FB8DE1DFDFA355392C /* Pods-Mockingbird_Example-frameworks.sh */,
+				F49FF9B393510242796E5260131E5EF0 /* Pods-Mockingbird_Example-Info.plist */,
+				DC8F834D4605E2E2F6D75DEBB68F1BC5 /* Pods-Mockingbird_Example-umbrella.h */,
+				C104293AE71683C3695DFA3D8DC9293B /* Pods-Mockingbird_Example.debug.xcconfig */,
+				649F70E3B3175DCA4EEC3C5FDF3E0619 /* Pods-Mockingbird_Example.release.xcconfig */,
+			);
+			name = "Pods-Mockingbird_Example";
+			path = "Target Support Files/Pods-Mockingbird_Example";
+			sourceTree = "<group>";
+		};
+		9024472DC046F053CF77C170507B4A1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C392C50EA53FB198076AF194B424BA7 /* Mockingbird-Networking.modulemap */,
+				94073BE7281C692AF3E8F83C47D97EC2 /* Mockingbird-Networking-dummy.m */,
+				C6EB7A2E2C8A5F103373712CF551528B /* Mockingbird-Networking-Info.plist */,
+				142F379C4A6EDA646FD778C39005C275 /* Mockingbird-Networking-prefix.pch */,
+				681F2D225AC5916774FC9F9C333DD22D /* Mockingbird-Networking-umbrella.h */,
+				674C8BDD2C511B13F26223F43D9E6B2E /* Mockingbird-Networking.debug.xcconfig */,
+				F30968C875E8C4C8D640723319ACA902 /* Mockingbird-Networking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Mockingbird-Networking";
+			sourceTree = "<group>";
+		};
+		977354CDFD65848AEE4AF2D04F42CA9B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFB60DE40567C14DF21E8773083C7C70 /* Mockingbird-Networking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AFB60DE40567C14DF21E8773083C7C70 /* Mockingbird-Networking */ = {
+			isa = PBXGroup;
+			children = (
+				46B9F39BC2530CC00AEAE168C9E9F8B2 /* Content.swift */,
+				1C5A1A84D082DF38641E3878BAA79625 /* HTTPResponseStatus.swift */,
+				BF854ADFF373EB374732AD91B87DD0C6 /* MockingbirdURLProtocol.swift */,
+				1BD36F97EC7E7E77EE4BBEA8593358EC /* Extensions */,
+				17CD621E9296DA08AC7025AA01A532AB /* Pod */,
+				ECF8D2F5AD731D4006610BD35EABB0EA /* Routing */,
+				9024472DC046F053CF77C170507B4A1A /* Support Files */,
+			);
+			name = "Mockingbird-Networking";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BF54858872CDE9FB437CBA112DAB6934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5676B5EE65F9F74391992AEFA584D52D /* Mockingbird_Networking.framework */,
+				404D28E668097A2F7037E53A2C9EB66D /* Pods_Mockingbird_Example.framework */,
+				AB373344129E2B9BBFDDB4B717DD15D2 /* Pods_Mockingbird_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				977354CDFD65848AEE4AF2D04F42CA9B /* Development Pods */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				BF54858872CDE9FB437CBA112DAB6934 /* Products */,
+				45CD88D08CB30C9A4804CB2F1DE645CF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D27C3E213839F33788E2B8E01A4076C9 /* Pods-Mockingbird_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				491CED6FA3688EDA1F10266CD13484D9 /* Pods-Mockingbird_Tests.modulemap */,
+				5534FD971D1240BB3246ACE96EFC90CC /* Pods-Mockingbird_Tests-acknowledgements.markdown */,
+				BDB67C08E6EFF01CB770A070FDBF018E /* Pods-Mockingbird_Tests-acknowledgements.plist */,
+				E573DE7C439D9FAE8E72DD33FE25CF70 /* Pods-Mockingbird_Tests-dummy.m */,
+				AD47538B4652EA9D9468B0307744E0AA /* Pods-Mockingbird_Tests-Info.plist */,
+				404B200D4617EBAE712BF71BD1CF99CA /* Pods-Mockingbird_Tests-umbrella.h */,
+				3ABE4619553788BAD556519C7C287DE9 /* Pods-Mockingbird_Tests.debug.xcconfig */,
+				19ECBCAB16570FF3A72DC49804ED54F7 /* Pods-Mockingbird_Tests.release.xcconfig */,
+			);
+			name = "Pods-Mockingbird_Tests";
+			path = "Target Support Files/Pods-Mockingbird_Tests";
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		ECF8D2F5AD731D4006610BD35EABB0EA /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				9944E59E977709971B833ED3155BA5B3 /* Route.swift */,
+				6AB2BB89F8B967398E1D9E8116D022FF /* RouteAndAction.swift */,
+				815A3722598081D9AB17A52759BDF33B /* Router.swift */,
+			);
+			name = Routing;
+			path = Mockingbird/Classes/Routing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		87241EB869F8CBEDE4EA759EBD0147A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E7208DF2B9163643C946A4FC96607B /* Pods-Mockingbird_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D4BE2E65F02CC21B7F3CC66286BFC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9ECAC0530E01F7F1663433B4F5FA6F /* Mockingbird-Networking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B73E58301A414184B9B9AE1C585E18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA500DF3865FF2E4F543CFFE4C0ED13 /* Pods-Mockingbird_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		102CEAB9758F981CDF911CFEA56CFCB7 /* Pods-Mockingbird_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D0CC99BC332D25AAE368551A41249B /* Build configuration list for PBXNativeTarget "Pods-Mockingbird_Tests" */;
+			buildPhases = (
+				C1B73E58301A414184B9B9AE1C585E18 /* Headers */,
+				FB9DD332B654F20AA53EA8AADD6052B6 /* Sources */,
+				AD77DC258E43BA125E4F5AA7AD628735 /* Frameworks */,
+				C8CCC676C244D38741CC8679F30007CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D61F93ACF5CE1E109FBE0DD9E148A65C /* PBXTargetDependency */,
+			);
+			name = "Pods-Mockingbird_Tests";
+			productName = Pods_Mockingbird_Tests;
+			productReference = AB373344129E2B9BBFDDB4B717DD15D2 /* Pods_Mockingbird_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51946C2AE546140788A1DECE20F1B7EC /* Mockingbird-Networking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF06BFCD05FBE30DAA9C80B9DB44A1C8 /* Build configuration list for PBXNativeTarget "Mockingbird-Networking" */;
+			buildPhases = (
+				A4D4BE2E65F02CC21B7F3CC66286BFC7 /* Headers */,
+				C4AAD4ED73EF16A59112E2B761EF2421 /* Sources */,
+				248D3F266DA992F42EE116A1C597D4AA /* Frameworks */,
+				06004DB1AFE90D11BA344F055304E13F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mockingbird-Networking";
+			productName = Mockingbird_Networking;
+			productReference = 5676B5EE65F9F74391992AEFA584D52D /* Mockingbird_Networking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		690D7697AB7FC1C5CD6D1ED2C06A3546 /* Pods-Mockingbird_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D279BF5F04A8038FBF9B49E56CF41FBF /* Build configuration list for PBXNativeTarget "Pods-Mockingbird_Example" */;
+			buildPhases = (
+				87241EB869F8CBEDE4EA759EBD0147A3 /* Headers */,
+				F1AF011F312A6A446352DBF5815E1387 /* Sources */,
+				55FBDC23D7A510DFC2B8EDD497D69309 /* Frameworks */,
+				D660F57E1C764C114B07E5583EBD28A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81011C333F9B3881C801AECDE536FE69 /* PBXTargetDependency */,
+			);
+			name = "Pods-Mockingbird_Example";
+			productName = Pods_Mockingbird_Example;
+			productReference = 404D28E668097A2F7037E53A2C9EB66D /* Pods_Mockingbird_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BF54858872CDE9FB437CBA112DAB6934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51946C2AE546140788A1DECE20F1B7EC /* Mockingbird-Networking */,
+				690D7697AB7FC1C5CD6D1ED2C06A3546 /* Pods-Mockingbird_Example */,
+				102CEAB9758F981CDF911CFEA56CFCB7 /* Pods-Mockingbird_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06004DB1AFE90D11BA344F055304E13F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CCC676C244D38741CC8679F30007CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D660F57E1C764C114B07E5583EBD28A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4AAD4ED73EF16A59112E2B761EF2421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8EF53EDC7CF85E2B2D8CC1A58D1A219 /* Content.swift in Sources */,
+				960E24304EF6CC43D2B0CCEB7410ADE3 /* Data+Inputstream.swift in Sources */,
+				870F6EA0C33D6AE9916E1519A3739166 /* HTTPResponseStatus.swift in Sources */,
+				C55A9AA21A02A600176143C67EDB34DF /* Mockingbird-Networking-dummy.m in Sources */,
+				DA2C4B0D4128B4C89A5B4FC8F9B2E89D /* MockingbirdURLProtocol.swift in Sources */,
+				FFE122CD156F11E5FDDBBB0BC77D5519 /* NSRegularExpression+Extension.swift in Sources */,
+				E78801737356E73A16E9026D2036D400 /* Route.swift in Sources */,
+				1ECFA37C480323353650E76AFE43C5FE /* RouteAndAction.swift in Sources */,
+				77263F76B6A84D58CAE389B853CD4C87 /* Router.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AF011F312A6A446352DBF5815E1387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF6B323428D59FEC87654025B72CEE4 /* Pods-Mockingbird_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9DD332B654F20AA53EA8AADD6052B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C8B90721D118DA14460BEE23415944 /* Pods-Mockingbird_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81011C333F9B3881C801AECDE536FE69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mockingbird-Networking";
+			target = 51946C2AE546140788A1DECE20F1B7EC /* Mockingbird-Networking */;
+			targetProxy = B81742542A0BBD2F8A52BDAB65439A3E /* PBXContainerItemProxy */;
+		};
+		D61F93ACF5CE1E109FBE0DD9E148A65C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Mockingbird_Example";
+			target = 690D7697AB7FC1C5CD6D1ED2C06A3546 /* Pods-Mockingbird_Example */;
+			targetProxy = 0510DB723141DC96CDC2BEDBCE5DF7F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A5DF9A00F600297140E5AABD3F3AC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674C8BDD2C511B13F26223F43D9E6B2E /* Mockingbird-Networking.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mockingbird-Networking/Mockingbird-Networking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mockingbird-Networking/Mockingbird-Networking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULEMAP_FILE = "Target Support Files/Mockingbird-Networking/Mockingbird-Networking.modulemap";
+				PRODUCT_MODULE_NAME = Mockingbird_Networking;
+				PRODUCT_NAME = Mockingbird_Networking;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C62BA7A08B3F3A352767204EC25639F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19ECBCAB16570FF3A72DC49804ED54F7 /* Pods-Mockingbird_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mockingbird_Tests/Pods-Mockingbird_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULEMAP_FILE = "Target Support Files/Pods-Mockingbird_Tests/Pods-Mockingbird_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		646AF311791014E914232806BCF9C4E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 649F70E3B3175DCA4EEC3C5FDF3E0619 /* Pods-Mockingbird_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mockingbird_Example/Pods-Mockingbird_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULEMAP_FILE = "Target Support Files/Pods-Mockingbird_Example/Pods-Mockingbird_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65858595BDFDF6F8E8B3AA4A2F21AB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C104293AE71683C3695DFA3D8DC9293B /* Pods-Mockingbird_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mockingbird_Example/Pods-Mockingbird_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULEMAP_FILE = "Target Support Files/Pods-Mockingbird_Example/Pods-Mockingbird_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		79F7E06369FBAFCA1B480245B02C5FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABE4619553788BAD556519C7C287DE9 /* Pods-Mockingbird_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Mockingbird_Tests/Pods-Mockingbird_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULEMAP_FILE = "Target Support Files/Pods-Mockingbird_Tests/Pods-Mockingbird_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0AB89DB0533D8E2B9201FA6579824B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D78B35F90EE122C57C3E39769B0A14B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30968C875E8C4C8D640723319ACA902 /* Mockingbird-Networking.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mockingbird-Networking/Mockingbird-Networking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mockingbird-Networking/Mockingbird-Networking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MODULEMAP_FILE = "Target Support Files/Mockingbird-Networking/Mockingbird-Networking.modulemap";
+				PRODUCT_MODULE_NAME = Mockingbird_Networking;
+				PRODUCT_NAME = Mockingbird_Networking;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39D0CC99BC332D25AAE368551A41249B /* Build configuration list for PBXNativeTarget "Pods-Mockingbird_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F7E06369FBAFCA1B480245B02C5FCC /* Debug */,
+				5C62BA7A08B3F3A352767204EC25639F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7599BD86FD28576C20F8B9B6B5ACBEC9 /* Debug */,
+				C0AB89DB0533D8E2B9201FA6579824B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF06BFCD05FBE30DAA9C80B9DB44A1C8 /* Build configuration list for PBXNativeTarget "Mockingbird-Networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5DF9A00F600297140E5AABD3F3AC1E /* Debug */,
+				D78B35F90EE122C57C3E39769B0A14B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D279BF5F04A8038FBF9B49E56CF41FBF /* Build configuration list for PBXNativeTarget "Pods-Mockingbird_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65858595BDFDF6F8E8B3AA4A2F21AB57 /* Debug */,
+				646AF311791014E914232806BCF9C4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Mockingbird",
+  "version": "0.6.2",
+  "summary": "A custom URLProtocol to mock networking responses",
+  "description": "Use Mockingbird to easily mock your sever requests during UITesting.",
+  "homepage": "https://git.kurzdigital.com/kurzdigital/mocking-bird-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Christian Braun": "christian.braun@kurzdigital.com"
+  },
+  "source": {
+    "git": "https://git.kurzdigital.com/kurzdigital/mocking-bird-ios",
+    "tag": "0.6.2"
+  },
+  "platforms": {
+    "osx": "10.10",
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "Mockingbird/Classes/**/*",
+  "swift_version": "5.0"
+}

@@ -1,0 +1,10 @@
+{
+  "id" : 5,
+  "firstName" : "Mocking",
+  "lastName" : "Bird",
+  "email" : "mocking.bird@kurzdigital.com",
+  "phone" : "",
+  "clientAuthToken" : null,
+  "roles" : [ "SUPPORT_AGENT" ],
+  "imageId" : null
+}
