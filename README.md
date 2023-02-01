@@ -57,5 +57,5 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Installation
 
 ```
-    pod 'Mockingbird', :configurations => ['Debug']
+    pod 'Mockingbird-Networking', :configurations => ['Debug']
 ```
